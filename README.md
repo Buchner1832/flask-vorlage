@@ -4,7 +4,7 @@
 
 In der Folge wird eine Möglichkeit beschrieben, das Projekt auf einem eigenen Computer zum Laufen zu bringen. Auf einem Schulrechner kannst du das Projekt nur bearbeiten, wenn auf diesen Python bereits installiert ist. Allerdings gibt es auch die Möglichkeit, das Projekt online zu bearbeiten und auszuführen. (Wird noch ergänzt.)
 
-Installiere python [https://www.python.org/downloads/](https://www.python.org/downloads/). Führe dann in einer Kommandozeilenanwendung (z.B. PowerShell oder einem Terminal in VSCode) den Befehl
+Installiere python [https://www.python.org/downloads/](https://www.python.org/downloads/). Öffne dann eine Kommandozeilenanwendung (z.B. PowerShell oder einem Terminal in VSCode), wechsle in das Projektverzeichnis und führe den Befehl
 ```
 $ pip install -r requirements.txt
 ```
