@@ -1,0 +1,24 @@
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bulma.min.css') }}">
+
+<body>
+   
+        <header >
+            
+        </header>
+        <section class="hero is-fullheight is-text-centered">
+            <div class="hero-body container">
+                <div>
+                    <p class="title">Hallo, {{name}}!</p>
+                    <p class=""subtitle">Schön, dass du da bist! 😀</p>
+                    <p> Hier geht's zum <a href = {{url_for('weather', city='Bamberg') }}>Wetter in Bamberg</a></p>
+                </div>
+               
+            </div>
+        </section>
+       
+       
+</body>
+
+</html>

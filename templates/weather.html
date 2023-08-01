@@ -1,0 +1,21 @@
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bulma.min.css') }}">
+
+    </head>
+    <body>
+      
+    </body>
+<body>
+    <section class="hero is-fullheight is-text-centered">
+        <div class="hero-body container">
+            <div>
+                <p class="title"> Die aktuelle Temperatur in  {{city }} beträgt {{ current_temp }} °C</p>
+                <p class=""subtitle">Die Information  wurde über die <em>Free Weather API</em> (siehe <a href="https://open-meteo.com">https://open-meteo.com</a>) abgerufen. Beachte: In der Ursprungsversion dieser Vorlage wird immer die aktuelle Temperatur von Bamberg angezeigt, egal welche Stadt du eingibst.</p>
+            </div>
+           
+        </div>
+    </section>
+</body>
+
+</html>
